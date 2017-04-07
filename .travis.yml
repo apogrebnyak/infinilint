@@ -12,4 +12,4 @@ python:
 install:
   - pip install .
 # command to run tests
-script: python -m unitttest discover
+script: python -m unittest discover
