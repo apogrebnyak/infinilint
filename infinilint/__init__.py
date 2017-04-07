@@ -96,7 +96,7 @@ def run_linters():
         list_linters(config['linters'], linters)
         exit(0)
 
-    client = docker.from_env()
+    client = docker.Client(version="auto")
 
     container = {}
 
