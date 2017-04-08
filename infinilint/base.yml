@@ -12,7 +12,7 @@ linters:
     enabled: false
     image: koalaman/shellcheck
     find: "*.sh"
-    command: shellcheck
+    command: shellcheck -x
   hadolint:
     enabled: false
     image: rzarouali/hadolint:develop
